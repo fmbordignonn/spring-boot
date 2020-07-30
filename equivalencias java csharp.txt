@@ -1,0 +1,6 @@
+Hibernate facilita operações de banco
+Hibernate = Entity Framework
+
+Thymeleaf gera HTML baseado em um model
+Thymeleaf = tipo um Razor que é alternativo a JSP (q é um lixo)
+

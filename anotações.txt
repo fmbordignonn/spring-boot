@@ -1,0 +1,15 @@
+o "pomzao" é tipo um .sln, tu abre ele qnd quer abrir o projeto
+
+alt + insert = menu q gera codigo automatico: getter, setter, construtor etc
+
+pra rodar programa com banco em memoria (H2 database):
+	- setar no application.properties - spring.h2.console.enabled=true
+	- rodar e ver no log qual port ele ta ouvindo (costuma ser 8080) e qual JDBC connection ta la
+	- acessar localhost e conectar no banco usando a connection string
+	- http://localhost:8080/h2-console
+	
+//Hibernate = Entity Framework
+//Thymeleaf
+
+
+Um controller no spring MVC basicamente define quais as rotas que vao ser capturadas e os metodos q vao executar, recebe um model como parametro e retorna uma view;
