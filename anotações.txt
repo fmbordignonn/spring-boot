@@ -9,7 +9,9 @@ pra rodar programa com banco em memoria (H2 database):
 	- http://localhost:8080/h2-console
 	
 //Hibernate = Entity Framework
-//Thymeleaf
+//Thymeleaf = Razor
 
 
 Um controller no spring MVC basicamente define quais as rotas que vao ser capturadas e os metodos q vao executar, recebe um model como parametro e retorna uma view;
+
+o Thymeleaf procura as coisa na folder resources > templates.*
