@@ -1,0 +1,22 @@
+@Qualifier é usado pra dizer pro spring qual bean injetar
+
+@Primary é usado pra dizer pro spring qual bean injetar, caso tenha mais de um e nao tiver especificado, ele pega o primario
+
+@Controller normalmente define um controller de spring MVC, enquanto @RestController é pra APIs REST
+
+usando @Profile("nome") podemos dizer pro spring qual profile é pra usar na execução, pra isso tem q setar o nome do profile no
+application.properties, usando spring.profiles.active=nome
+
+@Profile pode ser uma lista, @Profile({"abc", "default"}) sendo q default define o profile default
+
+@Lob diz pro JPA que um determinado campo vai ser um LOB no banco, ai o DB decide se vai criar um CLOB (Character Large Object) ou BLOB (Binary Large Object).
+
+@ControllerAdvice diz que a classe tem exceptionhandlers q devem ser compartilhado entre os @controller:
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/ControllerAdvice.html
+
+
+
+
+
+
+
